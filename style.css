@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1{
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#value{
+  font-size: 5em;
+  font-weight: 400;
+}
+
+.button-container{
+}
+
+.button-container button{
+  font-size: .7em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.button-container button:hover{
+  color: inherit;
+  background-color: inherit;
+}
